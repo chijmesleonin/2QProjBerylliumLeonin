@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin: 10px, 20px, 10px, 20px;
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
+
+p {
+  margin: 10px
+}
+
+.line{
+  line-height: 20px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 2;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+nav a.current {
+  background-color: #666;
+  color: white;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.box {
+  width: 50%;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+section {   
+  margin:0 auto;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color:white;
+}
+ 
+iframe {
+  margin-top: 30px;
+  margin-left: 25%;
+}
+
+.sources{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pic1{
+ position:absolute;
+ width: 300px;
+ height: 300px;
+ top:400px;
+ left: 20px;
+}
+
+#pic2{
+  position:absolute;
+  width: 300px;
+  height: 300px;
+  top: 400px;
+  right: 20px;
+}
+.socials ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.socials ul li a { 
+  background-image: url(../images/socials.png);
+  background-size: 190px 50px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 45px;
+  display: inline-block;
+}
+
+.socials ul li.twt a {
+  background-position: -99px 0px;
+}
+
+.socials ul li.ig a {
+  background-position: -149px 0px;
+}
